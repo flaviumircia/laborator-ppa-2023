@@ -10,7 +10,6 @@ Pachetul contine doua activitati (MainActivity si Profile) si are ca scop didact
 		<li>Un element EditText pentru introducerea e-mail-ului</li>
 		<li>Un element EditText pentru introducerea parolei</li>
 		<li>Un button pentru a face trecerea intre cele doua Activitati</li>
-		
 	</ul>
 
 <h3> Profile Activity </h3>
@@ -18,8 +17,7 @@ Pachetul contine doua activitati (MainActivity si Profile) si are ca scop didact
 	<ul>
 		<li>Un element TextView pentru afisarea e-mail-ului</li>
 		<li>Un element TextView pentru afisarea lungimii parolei</li>
-		<li>Un button pentru termina activitatea curenta</li>
-		
+		<li>Un button pentru termina activitatea curenta</li>		
 	</ul>
 	
 <h3> Misc </h3>
