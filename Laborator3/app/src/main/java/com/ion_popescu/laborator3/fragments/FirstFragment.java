@@ -1,10 +1,8 @@
 package com.ion_popescu.laborator3.fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -94,7 +92,7 @@ public class FirstFragment extends Fragment {
                 FragmentManager fragmentManager=getParentFragmentManager();
                 FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
 
-                fragmentTransaction.replace(R.id.first_fragment,new SecondFragment());
+                fragmentTransaction.replace(R.id.container_for_fragments,new SecondFragment());
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }

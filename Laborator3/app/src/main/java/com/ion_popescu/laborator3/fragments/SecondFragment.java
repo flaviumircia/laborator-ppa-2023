@@ -95,7 +95,7 @@ public class SecondFragment extends Fragment {
                 FragmentManager fragmentManager=getParentFragmentManager();
                 FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
                 fragmentManager.popBackStack();
-                fragmentTransaction.replace(R.id.first_fragment,new FirstFragment());
+                fragmentTransaction.replace(R.id.container_for_fragments,new FirstFragment());
                 fragmentTransaction.commit();
             }
         });

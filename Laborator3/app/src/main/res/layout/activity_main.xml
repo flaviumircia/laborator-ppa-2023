@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/first_fragment"
+        android:id="@+id/container_for_fragments"
         android:name="com.ion_popescu.laborator3.fragments.FirstFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
